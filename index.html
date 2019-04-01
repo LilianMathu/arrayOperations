@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Arrays operations</title>
+    <meta charset="UTF-8">
+    </meta>
+</head>
+
+<body>
+    <h1>Documentation for arrays operation</h1>
+
+
+    <script>
+        //arrays
+        //method 1 for creating an array (array construct)
+        /* var arr = new array();
+         console.log(arr);
+ 
+         //initializing while declaring
+         let arr1 = new array("lilian", "Mathu", "Wangari");
+         console.log(arr1);
+ 
+         //array with undefined elements
+         let arr2 = new array(3);
+         console.log(arr2);
+ 
+         //array with one elements
+         let arr3 = new array("mathu");
+         console.log(arr3);
+        
+        */
+
+
+        //method 2 for creating arrays
+        //array literals
+
+        var array = [];
+        console.log(array);
+
+        //initializing while declaring
+        var array2 = ["lilian", , 21, "Lakehub"];
+        console.log(array2);
+
+        //looping array elements with for loop
+        var numbers = [1, 2, 3, 4, 5];
+        for(var i = 0; i<numbers.length; i++){
+            console.log(numbers[i]);
+
+        }
+
+        //array methods
+        //1. Splice()
+        var fruits = "mango, passion, melon, pineaple, banana";
+        var array3 = fruits.split(",");
+        array3;
+        console.log(array3);
+
+         /*
+        //2. join()
+        newArray3 = fruits.join(',');
+        console.log(newArray3);
+        */
+      
+ 
+        //3. toString()
+        var newArrays4 = fruits.toString();
+        console.log(newArrays4.length);
+
+        //4. push()
+        var myArray = ["Momabasa", "Nairobi", "Nakuru"]
+        myArray.push("Kisumu");
+        console.log(myArray);
+
+        //5. pop()
+        myArray.pop("Nairobi");
+        console.log(myArray);
+
+        //6. unshift()
+        myArray.unshift("Eldoret");
+        console.log(myArray);
+
+        //7. shift()
+        myArray.shift("Kisumu");
+        console.log(myArray);
+
+        //8. 
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
